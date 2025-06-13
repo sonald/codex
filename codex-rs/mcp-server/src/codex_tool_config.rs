@@ -50,7 +50,7 @@ pub(crate) struct CodexToolCallParam {
 
 // Create custom enums for use with `CodexToolCallApprovalPolicy` where we
 // intentionally exclude docstrings from the generated schema because they
-// introduce anyOf in the the generated JSON schema, which makes it more complex
+// introduce anyOf in the generated JSON schema, which makes it more complex
 // without adding any real value since we aspire to use self-descriptive names.
 
 #[derive(Debug, Clone, Deserialize, JsonSchema)]
